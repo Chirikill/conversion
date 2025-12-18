@@ -30,15 +30,7 @@ python main.py --input server_config.txt
 ![Скриншот программы](2025-12-19_00-47-46.png)
 
 Пример входного файла:
-% Server settings
-global port = 8080
-global hostname = 'localhost'
-global timeout = 30.5
-global retries = 3
-global settings = [port, hostname, timeout]
-global max_connections = ${port * 10}
-global optimal_timeout = ${timeout * 2 - 5}
+![Скриншот программы](2025-12-19_00-57-37.png)
 
 Пример вывода XML:
-<?xml version="1.0" ?>
 ![Скриншот программы](2025-12-19_00-47-31.png)
