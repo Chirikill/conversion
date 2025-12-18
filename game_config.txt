@@ -1,0 +1,7 @@
+% Game configuration
+global max_score = 1000
+global player_count = 4
+global scores = [0, 0, 0, 0]
+global message = 'Welcome to the game!'
+global avg_score = ${max_score / player_count}
+global total_max = ${max(sqrt(100) * 10, max_score)}

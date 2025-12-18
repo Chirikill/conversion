@@ -1,0 +1,8 @@
+% Server settings
+global port = 8080
+global hostname = 'localhost'
+global timeout = 30.5
+global retries = 3
+global settings = [port, hostname, timeout]
+global max_connections = ${port * 10}
+global optimal_timeout = ${timeout * 2 - 5}

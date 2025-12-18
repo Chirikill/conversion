@@ -1,0 +1,8 @@
+% Physics experiment parameters
+global gravity = 9.81
+global mass = 2.5
+global velocity = 10.0
+global distances = [1.0, 2.0, 3.0, 4.0]
+global kinetic_energy = ${0.5 * mass * velocity * velocity}
+global max_distance = ${max(1.0, 2.5, 3.7)}
+global sqrt_value = ${sqrt(gravity * 2)}
