@@ -25,6 +25,7 @@
 Использование:
 Используем команду “—input” и укажем пример описания конфигурации:
 python main.py --input server_config.txt
+![Скриншот программы](2025-12-19_00-47-46.png)
 
 Пример входного файла:
 % Server settings
@@ -38,18 +39,4 @@ global optimal_timeout = ${timeout * 2 - 5}
 
 Пример вывода XML:
 <?xml version="1.0" ?>
-<configuration>
-  <constant name="port" type="number">8080</constant>
-  <constant name="hostname" type="string">localhost</constant>
-  <constant name="timeout" type="number">30.5</constant>
-  <constant name="retries" type="number">3</constant>
-  <constant name="settings">
-    <array>
-      <item type="number">8080</item>
-      <item type="string">localhost</item>
-      <item type="number">30.5</item>
-    </array>
-  </constant>
-  <constant name="max_connections" type="number">80800</constant>
-  <constant name="optimal_timeout" type="number">-91.5</constant>
-</configuration>
+![Скриншот программы](2025-12-19_00-47-31.png)
