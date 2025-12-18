@@ -24,7 +24,7 @@
 
 Использование:
 Используем команду “—input” и укажем пример описания конфигурации:
-![Uploading image.png…]()
+python main.py --input server_config.txt
 
 Пример входного файла:
 % Server settings
